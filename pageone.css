@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.landing-section{
+    height: 100vh;
+    background-color: black;
+}
+.navbar{
+    align-items: center;
+    height: 13%;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+   border-bottom: 1px solid #343434;
+   font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-options{
+    list-style: none;
+    margin-top: 5px;
+    margin-right: 13%;
+}
+.nav-options>li{
+    display: flex;
+    align-items: center;
+    
+    margin-left: 50px;
+}
+.nav-options>li>a{
+    text-decoration: none;
+    color: white;
+}
+.nav-options>li>a:hover{
+    color: #00ef9d;
+}
+.navbar>img{
+    
+    margin-left: 13%;
+    margin-top: 4px;
+}
+.landing-page{
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    height: 85vh;
+
+}
+.welcome-text{
+    font-size: 4.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.welcome-text>p{
+    margin-bottom: 0px;
+    display: flex;
+    align-items: start;
+    height: 90px;
+}
+.gradient-header{
+    margin-bottom: 0px;
+}
+.gradient-header>p{
+    display: flex;
+    align-items: end;
+    height: 90px;
+}
+
+.site-description{
+    align-items: center;
+    flex-direction: column;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.site-description>p{
+    margin-bottom: 0px;
+}
+.get-started-btn{
+    padding: 12px;
+    height: 40px;
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    background-color: white;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 45%;
+    margin-top: 38px;
+}
+.get-started-btn>p{
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.get-started-btn>img{
+   margin-top:0.1px;
+}
+.get-started-btn:hover{
+    box-shadow: 20px;
+   transform: scale(1.2,1.2);
+}
+

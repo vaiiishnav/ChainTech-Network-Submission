@@ -1,0 +1,56 @@
+.info-card{
+
+    width: 18vw;
+    margin-bottom: 2%;
+    border: 3px solid black;
+    border-radius: 20px;
+   
+}
+.info-card-header{
+    border-bottom: 2.5px solid black;
+    z-index: 1;
+
+}
+
+.info-card-header>p{
+    font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+    margin-top: 6%;
+    margin-left: 3%;
+}
+
+.info-card-header>img{
+    margin-left: 6%;
+}
+.info-card-content{
+    z-index: 1;
+    border-bottom: 2.5px solid black;
+    flex-direction: column;
+    align-items: center;
+}
+.info-card-content>img{
+    margin-top: 0;
+    height: 25vh;
+}
+.content-title{
+    z-index: 1;
+    margin-top: 8%;
+}
+.content-title>p{
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+    margin-bottom: 0;
+}
+.info-card-bottom{
+    z-index: 1;
+    display: flex;
+    justify-content: end; 
+    margin-top: 1%;
+}
+
